@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void sendUserToRegisterActivity() {
 
+        // send the user to the Register Activity for filling the details...
         Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
         startActivity(intent);
 
